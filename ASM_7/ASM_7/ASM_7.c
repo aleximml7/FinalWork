@@ -28,7 +28,7 @@ __declspec(naked) int calc_func(int a, int b, int c, int d, int e) {
 int main(void) {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    int a, b, c, d, e, y;
+    int a, b, c, d, e, final_result;
     const char* input_msg = "введите a, b, c, d, e (через пробел):\n";
     const char* input_format = "%d %d %d %d %d";
     const char* output_format = "a=%d, b=%d, c=%d , d=%d , e=%d \ny=%d\n";
@@ -59,9 +59,9 @@ int main(void) {
         push a
         call calc_func
         add esp, 20
-        mov y, eax
+        mov final_result, eax
 
-        push y
+        push final_result
         push e
         push d
         push c
