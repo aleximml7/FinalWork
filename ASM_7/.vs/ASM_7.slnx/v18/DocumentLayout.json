@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Code\\PSU_ASM\\ASM_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF500471-AAFE-469E-A1BE-094F0A5BA8B5}|ASM_7\\ASM_7.vcxproj|Z:\\Code\\PSU_ASM\\ASM_7\\ASM_7\\ASM_7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF500471-AAFE-469E-A1BE-094F0A5BA8B5}|ASM_7\\ASM_7.vcxproj|solutionrelative:ASM_7\\ASM_7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ASM_7.c",
+              "DocumentMoniker": "Z:\\Code\\PSU_ASM\\ASM_7\\ASM_7\\ASM_7.c",
+              "RelativeDocumentMoniker": "ASM_7\\ASM_7.c",
+              "ToolTip": "Z:\\Code\\PSU_ASM\\ASM_7\\ASM_7\\ASM_7.c",
+              "RelativeToolTip": "ASM_7\\ASM_7.c",
+              "ViewState": "AgIAADQAAAAAAAAAAAAowEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-11T10:32:21.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

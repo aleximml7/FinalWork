@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ASM_7/ASM_7.vcxproj" Id="cf500471-aafe-469e-a1be-094f0a5ba8b5" />
+</Solution>
