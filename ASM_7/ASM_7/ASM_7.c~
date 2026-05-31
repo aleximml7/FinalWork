@@ -1,0 +1,55 @@
+﻿#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS
+
+int calc_func(int a, int b, int c, int d, int e) {
+    return a - b * c / d + e;
+}
+
+int main(void) {
+    int a, b, c, d, e, y;
+    const char* input_msg = "Enter a, b, c, d, e (space separated):\n";
+    const char* input_format = "%d %d %d %d %d";
+    const char* output_format = "a=%d, b=%d, c=%d , d=%d , e=%d \n Result y=%d\n";
+
+    __asm {
+        push input_msg
+        call printf
+        add esp, 4
+
+        lea eax, e
+        push eax
+        lea eax, d
+        push eax
+        lea eax, c
+        push eax
+        lea eax, b
+        push eax
+        lea eax, a
+        push eax
+        push input_format
+        call scanf
+        add esp, 24
+
+        push e
+        push d
+        push c
+        push b
+        push a
+        call calc_func
+        add esp, 20
+        mov y, eax
+
+        push y
+        push e
+        push d
+        push c
+        push b
+        push a
+        push output_format
+        call printf
+        add esp, 28
+
+
+    }
+    return 0;
+}
